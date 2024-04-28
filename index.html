@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Shop</title>
+    <style>
+        body {
+            background-color: #F8F8FF;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #0066CC;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .product {
+            width: 250px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .product h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+
+        .product button {
+            background-color: #0066CC;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #0066CC;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            .product {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#home">Home</a>
+        <a href="#flavors">Flavors</a>
+        <a href="#locations">Locations</a>
+        <a href="#contact">Contact</a>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to our Ice Cream Shop!</h1>
+        <p>We offer a variety of delicious ice cream flavors for you to enjoy.</p>
+    </section>
+
+    <section id="flavors">
+        <h2>Our Flavors</h2>
+        <div class="product">
+            <img src="chocolate.jpg" alt="Chocolate Ice Cream">
+            <h2>Chocolate</h2>
+            <p>A classic favorite with rich chocolate flavor.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="strawberry.jpg" alt="Strawberry Ice Cream">
+            <h2>Strawberry</h2>
+            <p>A refreshing blend of fresh strawberries and cream.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="vanilla.jpg" alt="Vanilla Ice Cream">
+            <h2>Vanilla</h2>
+            <p>A classic, smooth, and creamy ice cream.</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="locations">
+        <h2>Our Locations</h2>
+        <p>We have multiple locations throughout the city.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For any inquiries, please contact us at info@icecreamshop.com or call us at 555-1234.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2022 Ice Cream Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
